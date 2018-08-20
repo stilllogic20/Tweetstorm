@@ -30,19 +30,19 @@ Tweetstormは以下のJSONデータを提供します。
   
 ## 設定
 `config.json` に記載します。  
-```json
+```yml
 {
-    "host": "192.168.2.2",  // サーバを起動するホスト
-    "port": 7650,  // サーバを起動するポート番号
+    "host": "192.168.2.2",  # サーバを起動するホスト
+    "port": 7650,  # サーバを起動するポート番号
     "accounts": [
         {
-            "sn": "SlashNephy",  // アカウントの表示名, 必ずしもscreen nameと一致する必要はありません
-            "id": 1000000000000000,  // アカウントの数値ID
-            "ck": "sssss",  // 使用するクライアントのConsumer Key
-            "cs": "ttttt",  // Consumer Secret
-            "at": "xxxxx-yyyyy",  // Access Token
-            "ats": "zzzzz",  // Access Token Secret
-            "list_id": 200000000000  // タイムラインとみなすリストのID
+            "sn": "SlashNephy",  # アカウントの表示名, 必ずしもscreen nameと一致する必要はありません
+            "id": 1000000000000000,  # アカウントの数値ID
+            "ck": "sssss",  # 使用するクライアントのConsumer Key
+            "cs": "ttttt",  # Consumer Secret
+            "at": "xxxxx-yyyyy",  # Access Token
+            "ats": "zzzzz",  # Access Token Secret
+            "list_id": 200000000000  # タイムラインとみなすリストのID
         }
     ]
 }
